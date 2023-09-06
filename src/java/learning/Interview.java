@@ -4,64 +4,51 @@ public class Interview
 {
 public static void main(String[] args)
 {
-	String name = "Shiv6754523ni90";
-	int x = 	name.length();
-	int sum = 0;
-
-	name.replaceAll(name, name)
+	String name = "Shivani";
 	
-System.out.println(x);
+	String name1 = new String ("Shivani");
+	
+	String name2= "Shivani";
 
-for (int i =0 ; i<x;i++)
-{
-int y = name.charAt(i);
+	String name3 = new String ("Shivani");
 
-System.out.println(y);
-
-	if (name.charAt(i) < 9 )
+	if(name == name2)
 	{
-		System.out.println(name.charAt(i));
+		System.out.println("TRUE");
+	}
+	else
+	{
+		System.out.println("FALSE");
 
-		sum = sum + name.charAt(i);
 	}
 	
-send keys
-	
-	to upload the file
-
-	
-	!--
-	valueof
-	parseint
-
-	==
-	.equals 
-	--!
-	
-	Static block
-	default constructor -
-	
-	
-	10 test cases - 6 failed test cases - dependent on other test cases. 3rd got failed. 
-	
-	
-	test case - upload button -- script - problem after sometime , internal server Error
-	
-	driver.navigateto -
-	driver
-	
-	
-	
-	
-	
-	
-	
-	
 }
 	
 	
 	
-	//name.charAt(0)
+	
+	
+	
+//send keys
+//	
+//	to upload the file
+//
+//	
+//	!--
+//	valueof
+//	parseint
+//
+//	==
+//	.equals 
+//	--!
+//	
+//	Static block
+//	default constructor -
+//	10 test cases - 6 failed test cases - dependent on other test cases. 3rd got failed. 
+//	test case - upload button -- script - problem after sometime , internal server Error
+//	
+//	driver.navigateto -
+//	driver
+//name.charAt(0)
 	//name.length();
-}
 }

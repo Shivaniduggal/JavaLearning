@@ -1,5 +1,9 @@
 package learning;
 
-public class RemoveWhiteSpaces {
+public class RemoveWhiteSpaces
+{
 
+	
+	
+	
 }

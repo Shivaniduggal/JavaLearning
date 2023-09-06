@@ -10,11 +10,12 @@ public class ArrayExample
 		 int[] a = new int[10];
 		 
 		 ArrayList<String> arr = new ArrayList<>();
-		 
-		 
-a[1]=10;
+         a[1]=10;
+         String inputString = "Hello World"; 
+         String subString = inputString.substring(6);
+     System.out.println(inputString.indexOf(3, 5));
 
-
+     System.out.println(subString);
 	
 	}
 	

@@ -19,7 +19,7 @@ public class FibonaciSeries
 			
 			//System.out.println("b"+ b);
 		//	System.out.println("a"+a);
-			System.out.println("sum"+ sum);
+			System.out.print(","+ sum);
 		}
 		
 		

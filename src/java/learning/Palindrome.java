@@ -3,20 +3,40 @@ package learning;
 public class Palindrome {
 
     public static void main(String[] args) {
-        String text = "MALAtgtYALAM";  // Input string
-        
-        int length = text.length();
-        
-        boolean palindrome = true;  // Initialize palindrome flag to true
+      //  String text = "I";  // Input string
+    //palindrome(text);
+    
+    String Sentence = "I am nitin";
+    String Words[]= Sentence.split(" ");
 
-        for (int i = 0; i < length / 2; i++) {
+for (String Word :Words)
+{
+//	System.out.println(Word);
+	palindrome(Word);
+}
+    
+    }
         
-        	if (text.charAt(i) != text.charAt(length - 1 - i)) {
+        static void palindrome(String text)
+        {
+            int length = text.length();
+
+        	if(text.length()==1) {
+        		System.out.println(  "Only One char");
+        	}
+        	else
+        	{
+             boolean palindrome = true;  // Initialize palindrome flag to true
+             for (int i = 0; i < length / 2; i++) {
+        
+        	if (text.charAt(i) != text.charAt(length - 1 - i)) 
+        	{
                 palindrome = false;  // If characters don't match, set palindrome flag to false
                 break;
             }
+        
         }
 
-        System.out.println("Is palindrome: " + palindrome);  // Print the result
-    }
-}
+        System.out.println(text + "  Is palindrome: " + palindrome);  // Print the result
+        	}
+}}
